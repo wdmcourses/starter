@@ -3,7 +3,7 @@ Starter for web development using native technologies.
 
 ![Starter](https://raw.githubusercontent.com/agragregra/starter/main/public/images/preview.jpg)
 ```
-git clone https://github.com/agragregra/starter . && rm -rf trunk .gitignore .git readme.md
+git clone https://github.com/wdmcourses/starter . && rm -rf trunk .gitignore .git readme.md
 ```
 
 > Run with **Live Server**  
