@@ -1,7 +1,7 @@
 ## RULES:
 
 * The assets folder contains fonts, icons, and other technical interface elements.
-* The images folder contains images.
+* All public files such as images, videos and other files are located in the public folder.
 * The scripts folder contains the project's JS scripts. Custom scripts should be placed here only.
 * The styles folder contains categorized project styles.
 * Fonts are included only in styles/_fonts.css. If fonts need to be downloaded, place them to the assets/fonts folder in woff2 format. But download fonts only as a last resort, if it is included in the prompt request.
