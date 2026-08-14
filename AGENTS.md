@@ -13,6 +13,7 @@
 * All external libraries and plugins used are located in the vendor folder. New add-ons and plugins should only be added to this folder. To add new plugins, it's best to use a .bover file with a predefined path.
 * Explore the capabilities of existing tools in the vendor folder and use them whenever possible, such as the grid, helper classes, and other tools.
 * Where a container is used, use the width variable --container.
+* As possible, use relative paths in the project.
 
 ## PROMPT:
 
