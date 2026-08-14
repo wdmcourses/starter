@@ -14,6 +14,7 @@
 * Explore the capabilities of existing tools in the vendor folder and use them whenever possible, such as the grid, helper classes, and other tools.
 * Where a container is used, use the width variable --container.
 * As possible, use relative paths in the project.
+* Use 2 spaces for indentation.
 
 ## PROMPT:
 
