@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" style="color-scheme: light dark;">
+<html lang="en">
 
 <head>
 
@@ -10,49 +10,17 @@
   <title>Starter</title>
   <meta name="description" content="Starter Description">
 
-  <link rel="icon" href="/favicon.ico" type="image/x-icon">
-  <meta property="og:image" content="public/images/preview.jpg">
+  <link rel="icon" href="/favicon.ico">
+  <meta property="og:image" content="path/to/image.jpg">
 
   <link rel="stylesheet" href="styles/index.css">
-  <script src="scripts/main.js" defer></script>
+  <script src="scripts/main.js" type="module"></script>
 
 </head>
 
 <body>
 
-  <div class="container">
-    <div class="row">
-      <div class="col-10 col-sm-6">
-        <div class="modes">
-          <span data-mode="light">Light</span>
-          <span data-mode="dark">Dark</span>
-          <span data-mode="auto">Auto</span>
-        </div>
-      </div>
-      <div class="col-2 col-sm-6 d-flex flex-column align-items-end justify-content-center">
-        <div class="toggler"><button></button></div>
-      </div>
-    </div>
-  </div>
-  <hr>
-  <div class="container">
-    <div class="row row-cols-xl-2">
-      <div class="col-sm-12 col-lg-4 order-md-last">
-        <h2 class="header">Starter</h2>
-        <span class="accent">Lorem ipsum</span> dolor sit amet consectetur, adipisicing elit. Molestiae quos ab, incidunt hic recusandae animi amet consectetur.
-        <div class="row">
-          <div class="col-4">
-            <button onclick="localStorage.clear(); location.reload();" style="margin-top: 15px;"><span class="d-none d-sm-block d-md-block d-lg-none d-xl-block">Clear localStorage</span><span class="d-none d-xs-block d-sm-none d-lg-block d-xl-none">🧹</span></button>
-          </div>
-          <div class="col-8"><blockquote>Nesciunt fugiat ipsa velit nobis, quam corrupti veritatis, perferendis facere et odit autem corporis molestias.</blockquote></div>
-        </div>
-      </div>
-      <div class="col-sm-12 col-lg-8 order-lg-first">
-        <img class="image image-dark" src="public/images/preview.jpg" alt="Image Example" loading="lazy">
-        <img class="image image-light" src="public/images/preview-light.jpg" alt="Image Example" loading="lazy">
-      </div>
-    </div>
-  </div>
+  <div class="container"><img src="public/images/preview.jpg" alt="Alt" style="max-width: 100%" ></div>
 
 </body>
 </html>

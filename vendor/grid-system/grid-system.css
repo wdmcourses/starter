@@ -301,10 +301,3 @@
 .align-content-between { align-content: space-between!important; }
 .align-content-around { align-content: space-around!important; }
 .align-content-stretch { align-content: stretch!important; }
-
-.h-100 { height: 100%!important; }
-.overflow-hidden { overflow: hidden!important; }
-
-.g-10 { gap: 10px!important; }
-.g-20 { gap: 20px!important; }
-.g-30 { gap: 30px!important; }

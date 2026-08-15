@@ -6,22 +6,11 @@
   --container: 1140px;
   --gutter: 1.25rem;
 
-  --accent: #f99b16;
-  --radius: .5rem;
-}
+  --background: #f5f5f5;
+  --color: #333;
 
-.light {
-  --body-bg: #f5f5f5;
-  --body-color: #171717;
-  --heading-color: #333;
-  --secondary-color: #8a8a8a;
-}
+  
 
-.dark {
-  --body-bg: #171717;
-  --body-color: #f5f5f5;
-  --heading-color: #ddd;
-  --secondary-color: #757575;
 }
 
 html {
@@ -31,8 +20,8 @@ html {
 body {
   font-family: var(--font-family);
   line-height: var(--line-height);
-  background-color: var(--body-bg);
-  color: var(--body-color);
+  background: var(--background);
+  color: var(--color);
   position: relative;
   overflow-x: hidden;
   min-width: 320px;

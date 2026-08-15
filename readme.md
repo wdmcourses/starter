@@ -11,19 +11,6 @@ git clone https://github.com/wdmcourses/starter . && rm -rf trunk .gitignore .gi
 
 ## Helpers
 
-### font-weight:
-```
-100 - Thin (Hairline)
-200 - Extra Light (Ultra Light)
-300 - Light
-400 - Regular (Normal)
-500 - Medium
-600 - Semi Bold (Demi Bold)
-700 - Bold
-800 - Extra Bold (Ultra Bold)
-900 - Black (Heavy)
-```
-
 ### grid-breakpoints (min-width):
 ```
 xs  - 0
@@ -58,48 +45,19 @@ xl - 1399.98px
 .justify-content-{start, end, center, between, around, evenly}
 .align-items-{start, end, center, baseline, stretch}
 .align-content-{start, end, center, between, around, stretch}
-.g-0, .gx-0, .gy-0, .g-10, .g-20, .g-30
-.nowrap, d-none, [hidden]
-.overflow-hidden
-.h-100
+.g-0, .gx-0, .gy-0
+.nowrap, .d-none, [hidden]
 ```
 
-### css mode classes (root):
+### font-weight:
 ```
-.light
-.dark
-```
-
-### theme switcher:
-```
-<span data-mode="light">Light</span>
-<span data-mode="dark">Dark</span>
-<span data-mode="auto">Auto</span>
-```
-
-### switcher active item:
-```
-[data-mode].active {}
-```
-
-### theme toggler:
-```
-<div class="toggler"><button></button></div>
-```
-
-### toggler active item:
-```
-(recommended):
-.light .toggler {}
-.dark .toggler {}
-
-(optional):
-.toggler.toggler-light {}
-.toggler.toggler-dark {}
-```
-
-### default mode (optional):
-```
-<html data-mode-default="light">
-...
+100 - Thin (Hairline)
+200 - Extra Light (Ultra Light)
+300 - Light
+400 - Regular (Normal)
+500 - Medium
+600 - Semi Bold (Demi Bold)
+700 - Bold
+800 - Extra Bold (Ultra Bold)
+900 - Black (Heavy)
 ```

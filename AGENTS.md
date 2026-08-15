@@ -1,19 +1,18 @@
 ## RULES:
 
-* The assets folder contains fonts, icons, and other technical interface elements.
-* All public files such as images, videos and other are located in the public folder.
-* The scripts folder contains the project's JS scripts. Custom scripts should be placed here only.
-* The styles folder contains categorized project styles.
-* Fonts are included only in styles/_fonts.css. If fonts need to be downloaded, place them to the assets/fonts folder in woff2 format. But download fonts only as a last resort, if it is included in the prompt request.
-* Custom project styles are written only in styles/_main.css unless a new CSS file needs to be created.
-* Media queries are written strictly within the screen resolution template defined in styles/_media.css. All project media queries are written exclusively to this file.
-* All project variables are located in the styles/_vars.css file. Project variables are already defined in this file, it's not recommended to add them, even if a new color or size is found in the design layout. Try to select the closest available variable.
-* Styles are collected together in the styles/index.css file.
-* Plugins, libraries scripts, and other should be downloaded locally, creating a separate folder for each in the vendor folder.
-* All external libraries and plugins used are located in the vendor folder. New add-ons and plugins should only be added to this folder. To add new plugins, it's best to use a .bover file with a predefined path.
-* Explore the capabilities of existing tools in the vendor folder and use them whenever possible, such as the grid, helper classes, and other tools.
-* Where a container is used, use the width variable --container.
-* As possible, use relative paths in the project.
+* assets/ holds technical interface elements: fonts, icons, and other non-public assets.
+* public/ holds all user-facing files: images, videos, and other media.
+* scripts/ holds the project's own JS only. Libraries go into vendor/, not here.
+* styles/ holds the project's own CSS, organized by purpose:
+  - _fonts.css: font declarations (@font-face) only. New fonts go into assets/fonts/ in woff2 format.
+  - _main.css: custom project styles only.
+  - _media.css: media queries only, using the breakpoint templates defined there.
+  - _vars.css: all project variables. Do not add new ones: if the design uses a new color or size, use the closest existing variable.
+  - index.css: imports and gathers all project styles.
+* vendor/ holds all external libraries and plugins. Download each required plugin from a public CDN (e.g., cdnjs) or its official source into a separate folder inside vendor/, keeping only production files (dist).
+* Use existing tools in vendor/ (grid, helper classes, etc.) whenever possible instead of writing new ones.
+* Where a container is used, use the --container variable for its width.
+* Use relative paths whenever possible.
 * Use 2 spaces for indentation.
 
 ## PROMPT:
