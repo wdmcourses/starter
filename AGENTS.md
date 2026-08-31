@@ -1,4 +1,4 @@
-## RULES:
+# RULES:
 
 * assets/ holds technical interface elements: fonts, icons, and other non-public assets.
 * public/ holds all user-facing files: images, videos, and other media.
@@ -14,7 +14,3 @@
 * Where a container is used, use the --container variable for its width.
 * Use relative paths whenever possible.
 * Use 2 spaces for indentation.
-
-## PROMPT:
-
-
