@@ -1,5 +1,5 @@
 # Starter
-Starter for web development using native technologies.
+Frontend Starter for web development using native technologies.
 
 ![Starter](https://raw.githubusercontent.com/wdmcourses/starter/main/public/images/preview.jpg)
 ```
