@@ -9,6 +9,7 @@
   - _media.css: media queries only, using the breakpoint templates defined there.
   - _vars.css: all project variables. Do not add new ones: if the design uses a new color or size, use the closest existing variable.
   - index.css: imports and gathers all project styles.
+  - Other custom styles for specific scopes (components, sections, admin overrides, etc.) may also be placed here.
 * vendor/ holds all external libraries and plugins. Download each required plugin from a public CDN (e.g., cdnjs) or its official source into a separate folder inside vendor/, keeping only production files (dist).
 * Use existing tools in vendor/ (grid, helper classes, etc.) whenever possible instead of writing new ones.
 * Where a container is used, use the --container variable for its width.
